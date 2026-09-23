@@ -1,10 +1,16 @@
--- ============================
+-- ============================================================
+-- FACT VIEW
+-- Sales Data Engineering Pipeline
+-- ============================================================
+
+-- ============================================================
 -- View: fact_sales
--- ============================
-CREATE VIEW fact_sales AS
+-- Grain: One row per order
+-- ============================================================
+CREATE OR ALTER VIEW fact_sales AS
 SELECT
     o.order_id,
-    CONVERT(INT, FORMAT(o.order_date, 'yyyyMMdd')) AS date_key,
+    CONVERT(INT, CONVERT(CHAR(8), o.order_date, 112)) AS date_key,
     dp.product_key,
     dl.location_key,
     o.ship_mode,
