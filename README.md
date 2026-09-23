@@ -143,8 +143,8 @@ The analytical layer was connected to Power BI to build an interactive **Sales P
 
 ### Dashboard Preview
 
-![Sales Performance Dashboard](PowerBI/<img width="1464" height="830" alt="Sales_DashBoard" src="https://github.com/user-attachments/assets/bac77feb-d503-4fda-8925-54240f30bd20" />
-)
+PowerBI/<img width="1464" height="830" alt="Sales_DashBoard" src="https://github.com/user-attachments/assets/bac77feb-d503-4fda-8925-54240f30bd20" />
+
 
 ## Technology Stack
 
