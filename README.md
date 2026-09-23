@@ -143,7 +143,8 @@ The analytical layer was connected to Power BI to build an interactive **Sales P
 
 ### Dashboard Preview
 
-![Sales Performance Dashboard](PowerBI/sales_dashboard.png)
+![Sales Performance Dashboard](PowerBI/<img width="1464" height="830" alt="Sales_DashBoard" src="https://github.com/user-attachments/assets/bac77feb-d503-4fda-8925-54240f30bd20" />
+)
 
 ## Technology Stack
 
@@ -189,16 +190,6 @@ sales-data-engineering-pipeline/
 - Fact & Dimension design
 - Analytical SQL
 - Power BI visualization
-
-## Future Improvements
-
-- Incremental data loading
-- Physical dimension tables
-- Slowly Changing Dimensions (SCD)
-- Automated data quality testing
-- Apache Airflow orchestration
-- Dockerization
-- Cloud data warehouse integration
 
 ## Author
 
